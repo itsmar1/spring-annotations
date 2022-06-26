@@ -10,4 +10,9 @@ public class SoccerCoach implements Coach {
         return "Score 3 goals in each game";
     }
 
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
+
 }
